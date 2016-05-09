@@ -12,6 +12,12 @@
 		3E54203D1CE093D7007E3685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E54203B1CE093D7007E3685 /* Main.storyboard */; };
 		3E54203F1CE093D7007E3685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E54203E1CE093D7007E3685 /* Assets.xcassets */; };
 		3E5420421CE093D7007E3685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5420401CE093D7007E3685 /* LaunchScreen.storyboard */; };
+		3E54204A1CE093FA007E3685 /* HistogramSpecification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5420491CE093FA007E3685 /* HistogramSpecification.swift */; };
+		3E5420501CE0990B007E3685 /* centerMona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E54204F1CE0990B007E3685 /* centerMona.jpg */; };
+		3E5420521CE099C5007E3685 /* blueberry.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E5420511CE099C5007E3685 /* blueberry.png */; };
+		3EF7A1221CE09B270016FA62 /* strawberry.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF7A1211CE09B270016FA62 /* strawberry.png */; };
+		3EF7A1241CE09DB60016FA62 /* lime.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF7A1231CE09DB60016FA62 /* lime.png */; };
+		3EF7A1261CE0A0590016FA62 /* lemon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF7A1251CE0A0590016FA62 /* lemon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		3E54203E1CE093D7007E3685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E5420411CE093D7007E3685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E5420431CE093D7007E3685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E5420491CE093FA007E3685 /* HistogramSpecification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistogramSpecification.swift; sourceTree = "<group>"; };
+		3E54204F1CE0990B007E3685 /* centerMona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centerMona.jpg; sourceTree = "<group>"; };
+		3E5420511CE099C5007E3685 /* blueberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueberry.png; sourceTree = "<group>"; };
+		3EF7A1211CE09B270016FA62 /* strawberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strawberry.png; sourceTree = "<group>"; };
+		3EF7A1231CE09DB60016FA62 /* lime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lime.png; sourceTree = "<group>"; };
+		3EF7A1251CE0A0590016FA62 /* lemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lemon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +66,18 @@
 		3E5420361CE093D7007E3685 /* HisogramSpecificationBlendDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3EF7A1251CE0A0590016FA62 /* lemon.png */,
+				3EF7A1231CE09DB60016FA62 /* lime.png */,
+				3EF7A1211CE09B270016FA62 /* strawberry.png */,
+				3E5420511CE099C5007E3685 /* blueberry.png */,
+				3E54204F1CE0990B007E3685 /* centerMona.jpg */,
 				3E5420371CE093D7007E3685 /* AppDelegate.swift */,
 				3E5420391CE093D7007E3685 /* ViewController.swift */,
 				3E54203B1CE093D7007E3685 /* Main.storyboard */,
 				3E54203E1CE093D7007E3685 /* Assets.xcassets */,
 				3E5420401CE093D7007E3685 /* LaunchScreen.storyboard */,
 				3E5420431CE093D7007E3685 /* Info.plist */,
+				3E5420491CE093FA007E3685 /* HistogramSpecification.swift */,
 			);
 			path = HisogramSpecificationBlendDemo;
 			sourceTree = "<group>";
@@ -124,7 +142,12 @@
 			files = (
 				3E5420421CE093D7007E3685 /* LaunchScreen.storyboard in Resources */,
 				3E54203F1CE093D7007E3685 /* Assets.xcassets in Resources */,
+				3EF7A1241CE09DB60016FA62 /* lime.png in Resources */,
+				3EF7A1221CE09B270016FA62 /* strawberry.png in Resources */,
 				3E54203D1CE093D7007E3685 /* Main.storyboard in Resources */,
+				3E5420521CE099C5007E3685 /* blueberry.png in Resources */,
+				3E5420501CE0990B007E3685 /* centerMona.jpg in Resources */,
+				3EF7A1261CE0A0590016FA62 /* lemon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +160,7 @@
 			files = (
 				3E54203A1CE093D7007E3685 /* ViewController.swift in Sources */,
 				3E5420381CE093D7007E3685 /* AppDelegate.swift in Sources */,
+				3E54204A1CE093FA007E3685 /* HistogramSpecification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +312,7 @@
 				3E5420481CE093D7007E3685 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
